@@ -8,3 +8,5 @@ Step 5 : Copy the target simulink model to trunk/demos/SystemModelsAndData\
 Step 6 : The input for the target simulink model is vector of length four, where first three are actions from RL-agent and the fourth input from S-taliro.\
 Step 7 : The input and output for the target simulink file must be similar to one in example folder\
 Step 8 : Run gui_app.mlapp
+
+Note : The emulation plots of frequency and residue of IEEE (5, 9, 39) bus cases are also provided herewith.
