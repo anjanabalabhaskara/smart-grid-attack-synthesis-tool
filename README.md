@@ -1,3 +1,8 @@
+User Guide
+===========
+
+We have developed a tool to find a stealthy-attack vectors that tampers sensor/actuator data. These attack-vectord target various vulnerable points on Smart-Grid causing un-natural behavior without getting detected by anamoly detectors.
+
 # smart-grid-attack-synthesis-tool
 
 Step 1 : Download S-taliro from https://sites.google.com/a/asu.edu/s-taliro/s-taliro/download \
