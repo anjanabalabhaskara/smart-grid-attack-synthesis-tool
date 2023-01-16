@@ -7,3 +7,4 @@ We have developed a tool to find a stealthy-attack vectors that tampers sensor/a
 
 GUI description
 ================
+This tool uses a simulink file with .mdl extension as input from user. It uses a reinforcement -learning frame-work from simulink and a formal tool S-Taliro to generate a stealthy attack vector.
