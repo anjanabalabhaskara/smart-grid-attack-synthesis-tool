@@ -1,7 +1,7 @@
 User Guide
 ===========
 
-We have developed a tool to find a stealthy-attack vectors that tampers sensor/actuator data. These attack-vectors target various vulnerable points on Smart-Grid causing un-natural behavior without getting detected by anomaly detectors. We use a methodology that synthesizes attack vector using a learning-based probablistic engine and a stochastic optimization-based formal engine.
+We have developed a tool to find stealthy-attack vectors that tamper the sensor and actuator data of Smart Grid. These attack vectors target specific components of the grid causing abnormal behavior like brown-outs, without getting discovered by the anomaly detectors prsent in the grid. We use a methodology that synthesizes attack vectors using a learning-based probabilistic engine and a stochastic optimization-based formal engine.
 
 ![alt text](images/toolSetup.png)
 
