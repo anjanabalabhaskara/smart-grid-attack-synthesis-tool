@@ -77,7 +77,7 @@ Time time step at which the model will be executed is specified in the Sample Ti
 
 **Step 9:**
 The initial value for false data generation is specified by the user in this tab.</br> 
-![GUI_STEP9](https://user-images.githubusercontent.com/103938112/213858966-ad11241e-2335-41a8-84ba-139a5e8e9568.png)
+![Screenshot_20230121_133735](https://user-images.githubusercontent.com/96375883/213867349-437b66a0-4095-4d45-ae02-092a9398071f.png)
 
 **Step 10:**
 Here in InputMin and InputMax the user specifies the input range for false-data injection, in Control Points tab the samples points for false-data injection is selected by the user, in interpolation type the user specifies how to insert false-data in the simulation time.</br> 
