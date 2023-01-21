@@ -7,5 +7,5 @@ We have developed a tool to find stealthy-attack vectors that tamper the sensor 
 
 GUI description
 ================
-This tool uses a simulink file with .mdl extension as input from user. It uses a reinforcement -learning frame-work from simulink and a formal tool S-Taliro to generate a stealthy attack vector.
+This matlab tool allows the user to select the grid configuration(standard bus architectures) with multiple generation and detector units
 ![alt text](images/gui_screen.png)
