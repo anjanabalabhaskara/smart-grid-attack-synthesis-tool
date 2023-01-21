@@ -34,6 +34,6 @@ All the above comparisons justify that our attack model is more effective and fa
 * External Tools: Matlab R2021a
 * Other Requirements: S-taliro tool-box https://sites.google.com/a/asu.edu/s-taliro/s-taliro , Matlab Reinforcement Learning Toolbox
 * Setup S-taliro toolbox by pasting "setup_staliro.m" command in the Matlab command window.
-* Copy all the .mat files from folder mat_files and simulink models from folder rl_models_simulink in the repository to C:\trunk\demos\SystemModelsAndData
-* Copy staliro_gui.m and staliro_gui.fig to C:\trunk
-* Run "H = staliro_gui" to open GUI
+* Copy all the .mat files from folder mat_files and simulink models from folder rl_models_simulink in the repository to the path C:\trunk\demos\SystemModelsAndData
+* Copy staliro_gui.m and staliro_gui.fig to the path C:\trunk
+* Run "H = staliro_gui" in matlab command window to open the Graphical User Interface (GUI)
