@@ -65,6 +65,7 @@ For example, Suppose there are two outputs x = [y1,y2]. Where let y1 be the freq
 
 **Step 5:**
 The user specifies how many times the simulink model will execute by pressing the Number of run button
+![Presentation_gui_tool pptx](https://user-images.githubusercontent.com/96375883/213868412-cb3ca0f3-3bcd-4be7-acd0-d57eec060e5f.svg)<br />
 ![Screenshot_20230121_133607](https://user-images.githubusercontent.com/96375883/213867174-4dcd52fc-9b52-4d9e-98e2-bcd241a37204.png)<br />
 
 **Step 6:**
