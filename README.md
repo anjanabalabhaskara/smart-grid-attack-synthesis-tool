@@ -34,6 +34,6 @@ For example, Suppose there are two outputs x = [y1,y2]. Where let y1 be the freq
  ![GUI_STEP3](https://user-images.githubusercontent.com/103938112/213849028-3915a34b-2070-4fa1-a037-ffc7be1474c7.png)
  
  **Step 4:**
- 
+ The user specifies which IEEE bus architecture did he/she upload. 
  
 
