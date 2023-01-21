@@ -17,4 +17,3 @@ Getting Started
 ================
 We now give a step-by-step demonstration of how the tool works.
 Step 1:
--------
