@@ -53,3 +53,7 @@ Time time step at which the model will be executed is specified in the Sample Ti
 ![GUI_STEP8](https://user-images.githubusercontent.com/103938112/213858756-f7be97cd-7ce1-4995-92f4-10bf26747406.png)
 
 **Step 9:**
+The initial value for false data generation is specified by the user in this tab. 
+![GUI_STEP9](https://user-images.githubusercontent.com/103938112/213858966-ad11241e-2335-41a8-84ba-139a5e8e9568.png)
+
+**Step 10:**
