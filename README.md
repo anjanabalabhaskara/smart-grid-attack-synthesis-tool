@@ -17,6 +17,8 @@ Getting Started
 ================
 We now give a step-by-step demonstration of how the tool works.
 
+**Simulink work-around**
+
 **Step 1:**
 The user uploads his/her power grid model (eg. IEEE (5 bus, 9 bus, 14 bus, 39 bus)) to the tool by pressing the Select Model button. The file explorer button pops up from where the user can select his/her power grid simulink model.
 ![Screenshot 2023-01-21 100606](https://user-images.githubusercontent.com/103938112/213847320-e21604a5-b92b-43b1-9408-130dc4ca08a2.png)
@@ -57,4 +59,4 @@ The initial value for false data generation is specified by the user in this tab
 ![GUI_STEP9](https://user-images.githubusercontent.com/103938112/213858966-ad11241e-2335-41a8-84ba-139a5e8e9568.png)
 
 **Step 10:**
-InputMin and InputMax specify input range for false-data injection, Control Points points false-data will be injected, interpolation type to specify how to insert false-data inthe simulation interval
+InputMin and InputMax specify input range for false-data injection, Control Points specify how many false-data will be injected, interpolation type to specify how to insert false-data inthe simulation interval
