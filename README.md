@@ -27,3 +27,10 @@ In the above figure r1 represents upper safety limit for grid frequency and r2 r
 
 Step 3:
 In the Predicate settings tab, the user maps the logic specification in step 2 to the predicates over the output space of the model.
+For example,  Suppose there are two outputs x = [y1,y2]
+ predicate r1 checks if y1 < = b
+ therefore matrix A = [1 0] such that Ax <= b
+ similarly to check y1 >= b, A = [-1 0]  such that -Ax <= -b which implies Ax >= b
+ 
+ predicate r2 checks i y2 <= b
+ therefore A = [0 1], such that Ax <= b
