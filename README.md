@@ -86,6 +86,7 @@ Next the time step at which the model will be executed is specified by the user 
 
 **Step 9:**
 The initial value for false data generation is specified by the user in this tab.</br> 
+![seed](https://user-images.githubusercontent.com/103938112/213870862-d6677280-5213-4835-a529-a038c2518a61.png)
 ![Screenshot_20230121_133735](https://user-images.githubusercontent.com/96375883/213867349-437b66a0-4095-4d45-ae02-092a9398071f.png)
 
 **Step 10:**
