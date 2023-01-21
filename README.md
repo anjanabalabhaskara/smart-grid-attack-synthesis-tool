@@ -36,18 +36,15 @@ All the above comparisons justify that our attack model is more effective and fa
 * Setup S-taliro toolbox by pasting "setup_staliro.m" command in the Matlab command window.
 * Copy all the .mat files from folder mat_files and simulink models from folder rl_models_simulink in the repository to the path C:\trunk\demos\SystemModelsAndData
 * Copy staliro_gui.m and staliro_gui.fig to the path C:\trunk
-* Load all the .mat files from C:\trunk\demos\SystemModelsAndData into the matlab workspace.
 * Run "H = staliro_gui" in matlab command window to open the Graphical User Interface (GUI)
 
 # Demonstration of the Graphical User Interface (GUI) tool:
 **Step 1:**
 The user uploads his/her power grid simulink model (in .mdl format) (eg. IEEE5bus.mdl, IEEE9bus.mdl, IEEE14bus.mdl, IEEE39bus.mdl) to the tool by pressing the Select Model button. The file explorer button pops up from where the user can select his/her power grid simulink model.<br />
-![Presentation_gui_tool pptx](https://user-images.githubusercontent.com/96375883/213867905-e1ab54ed-1125-408a-8848-b14e6cfaf77a.svg)<br />
-![Screenshot 2023-01-21 100606](https://user-images.githubusercontent.com/103938112/213847320-e21604a5-b92b-43b1-9408-130dc4ca08a2.png)
+![Presentation_gui_tool pptx (3)](https://user-images.githubusercontent.com/96375883/213870799-e25b9d1d-8517-4bd8-91ff-0f6fe962d926.svg) <br />
 **Step 2:**
-Next in the specification tab, the user enters the safety properties for the power grid (i.e, the upper and lower bound limit for power grid frequency) and set the point value for the detection unit in the grid in the form of Metric Temporal Logic (MTL) equation. <br />
-![Presentation_gui_tool pptx](https://user-images.githubusercontent.com/96375883/213867833-d433439a-172a-43e7-b67f-c401ae72176e.svg)<br />
-![specification](https://user-images.githubusercontent.com/96375883/213866926-e5e6ed3a-d5e0-41cc-afad-8b4b1b15e53a.png)<br />
+Next in the specification tab, the user enters the safety properties for the power grid (i.e, the upper and lower bound limit for power grid frequency) and set the point value for the detection unit in the grid in the form of the MTL equation. <br />
+![Presentation_gui_tool pptx (4)](https://user-images.githubusercontent.com/96375883/213870796-74d72394-6639-4ee3-b031-35bd5d6cd3a8.svg)<br />
 In the above figure r1 represents upper safety limit for grid frequency and r2 represents lower safety limit for grid frequency. r3 represents the threshold value for the residue based detection unit.
 
 **Step 3:**
@@ -60,7 +57,7 @@ For example, Suppose there are two outputs x = [y1,y2]. Where let y1 be the freq
 ![Screenshot 2023-01-21 175257](https://user-images.githubusercontent.com/96375883/213866744-8742c049-158a-44ee-8ce1-5405ef4fcfd3.png)
  
  **Step 4:**
- Next the user specifies which IEEE bus architecture did he/she upload. This step is crucial as it maps the trained RL agent with the S-Taliro tool. 
+ The user specifies which IEEE bus architecture did he/she upload. This step is crucial as it maps the trained RL agent with the S-Taliro tool. 
 ![Presentation_gui_tool pptx (1)](https://user-images.githubusercontent.com/96375883/213868046-308bee56-3368-4d54-864c-a5eb2fb96e3e.svg)<br />
 ![bus_architecture](https://user-images.githubusercontent.com/96375883/213867082-b319fd4e-5c9a-42d6-8097-52f9b76e4f53.png)<br />
 
@@ -70,31 +67,32 @@ The user specifies how many times the simulink model will execute by pressing th
 ![Screenshot_20230121_133607](https://user-images.githubusercontent.com/96375883/213867174-4dcd52fc-9b52-4d9e-98e2-bcd241a37204.png)<br />
 
 **Step 6:**
-In this step the user specifies the time duration in seconds for which the simulation is to be continued by pressing the Simulation Time tab.
+The user specifies the time duration in seconds for which the simulation is to be continued in the Simulation Time tab.
 ![Presentation_gui_tool pptx](https://user-images.githubusercontent.com/96375883/213868630-b11035c4-5cb3-4a09-8b0f-1bea9f8a9c80.svg)<br />
 ![Screenshot_20230121_133627](https://user-images.githubusercontent.com/96375883/213867221-523b208a-e61e-4614-9ccf-178ec20d99f7.png)<br />
 
 **Step 7:**
-The user choses a solver for the simulink model using this tab.</br>
+The user choses a solver for the simulink model using this tab.<br />
 ![Presentation_gui_tool pptx (1)](https://user-images.githubusercontent.com/96375883/213868879-961e436c-b6e3-49ca-9a2c-1b3b7178d105.svg)<br />
 ![Screenshot_20230121_133650](https://user-images.githubusercontent.com/96375883/213867273-31b91070-2ef0-430b-9d1f-862e09ea75f6.png)<br />
 
 **Step 8:**
-Next the time step at which the model will be executed is specified by the user in the Sample Time tab.</br>
+Time time step at which the model will be executed is specified in the Sample Time tab.<br />
 ![Presentation_gui_tool pptx](https://user-images.githubusercontent.com/96375883/213868786-e7868ba6-9201-44c9-a4b7-8f8188bf4427.svg)<br />
 ![Screenshot_20230121_133713](https://user-images.githubusercontent.com/96375883/213867312-332964d8-fbe6-465d-9bad-8c3cd6976184.png)<br />
 
 **Step 9:**
-The initial value for false data generation is specified by the user in this tab.</br> 
-![seed](https://user-images.githubusercontent.com/103938112/213870862-d6677280-5213-4835-a529-a038c2518a61.png)
-![Screenshot_20230121_133735](https://user-images.githubusercontent.com/96375883/213867349-437b66a0-4095-4d45-ae02-092a9398071f.png)
+The initial value for false data generation is specified by the user in this tab.<br />
+![Presentation_gui_tool pptx](https://user-images.githubusercontent.com/96375883/213869818-b4c43b0b-661f-4cb9-a24b-93c78bff8fd9.svg)<br />
+![Screenshot_20230121_133735](https://user-images.githubusercontent.com/96375883/213867349-437b66a0-4095-4d45-ae02-092a9398071f.png)<br />
 
 **Step 10:**
-Here in InputMin and InputMax the user specifies the input range for false-data injection, in Control Points tab the samples points for false-data injection is selected by the user, in interpolation type the user specifies how to insert false-data in the simulation time.</br>
-![step10](https://user-images.githubusercontent.com/103938112/213870949-e297d0a2-ab8d-48f2-b23a-b6092babedb2.png)
-![inputs](https://user-images.githubusercontent.com/96375883/213867400-c0e01f57-daae-4e9f-a124-1843e95e6a72.png)
+Here in InputMin and InputMax the user specifies the input range for false-data injection, in Control Points tab the samples points for false-data injection is selected by the user, in interpolation type the user specifies how to insert false-data in the simulation time.<br />
+![Presentation_gui_tool pptx (1)](https://user-images.githubusercontent.com/96375883/213869823-f35cf9e9-684a-4fe7-8f2c-a33e9c4b2855.svg)<br />
+![inputs](https://user-images.githubusercontent.com/96375883/213867400-c0e01f57-daae-4e9f-a124-1843e95e6a72.png)<br />
 
 **Step 11:**
 Finally the user starts the simulation by pressing the run simulation button.</br>
-![Screenshot_20230121_142611](https://user-images.githubusercontent.com/96375883/213867426-34a240ae-ca6f-4ee0-8539-43c37711faed.png)
+![Presentation_gui_tool pptx (2)](https://user-images.githubusercontent.com/96375883/213869828-63d53269-0ddf-4c5c-b642-2587930732a8.svg)<br />
+![Screenshot_20230121_142611](https://user-images.githubusercontent.com/96375883/213867426-34a240ae-ca6f-4ee0-8539-43c37711faed.png)<br />
 
