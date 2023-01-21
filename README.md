@@ -35,7 +35,7 @@ All the above comparisons justify that our attack model is more effective and fa
 * Other Requirements: S-taliro tool-box https://sites.google.com/a/asu.edu/s-taliro/s-taliro , Matlab Reinforcement Learning Toolbox
 * Setup S-taliro toolbox by pasting "setup_staliro.m" command in the Matlab command window.
 * Copy all the .mat files from folder mat_files and simulink models from folder rl_models_simulink in the repository to the path C:\trunk\demos\SystemModelsAndData
-* Copy staliro_gui.m and staliro_gui.fig to the path C:\trunk
+* Copy staliro_gui.m, load_mat.m and staliro_gui.fig to the path C:\trunk
 * For uploading the designed power grid model for an attack to the Graphical User Interface (GUI) tool the user is required to insert an RL agent block in his/her Simulink model. The user is also required to label the desired attack points in the Simulink model. The user also needs to mark the locations in the grid where he/she is interested to view the waveforms. The points where the user views the waveforms also serve as observation points for the Reinforcement Learning (RL) agent. All the labeling should be done using the goto tag available in the Simulink library. Visit https://www.mathworks.com/help/simulink/slref/goto.html to learn about the tag. [Note: The user should give proper names to the goto-tag used for the tool].<br />
 * Run "H = staliro_gui" in matlab command window to open the Graphical User Interface (GUI)
 
