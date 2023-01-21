@@ -43,7 +43,8 @@ All the above comparisons justify that our attack model is more effective and fa
 **Simulink file work-around**
 * Use "inport" block to collect attack vectors from the tool and "demux" block to split vectors generated from "RL-agent" and "S-taliro"(index 1 is vector generated from "RL-agent", index 2 is vector generated from "S-taliro")<br />![Screenshot_20230121_140131](https://user-images.githubusercontent.com/96375883/213871224-6dfdada3-7f47-4526-9023-d1b500555e0a.png)
 * For "RL-agent" observation, the frequency of the generators and residues are collected in order using "mux" block as shown in figure and sent through "outport1"<br />![Screenshot_20230121_135625](https://user-images.githubusercontent.com/96375883/213871329-56bff245-d100-44b1-9436-712b4be67bfd.png)
-* 
+* To observe the behaviour of various parameters in simulink model they are collected as "mux" and connected to "outport2" <br />![output_plot](https://user-images.githubusercontent.com/96375883/213871415-e24a652b-8b74-437a-9039-6719e9171b49.png)
+
 
 **Step 1:**
 The user uploads his/her power grid simulink model (in .mdl format) (eg. IEEE5bus.mdl, IEEE9bus.mdl, IEEE14bus.mdl, IEEE39bus.mdl) to the tool by pressing the Select Model button. The file explorer button pops up from where the user can select his/her power grid simulink model.<br />
