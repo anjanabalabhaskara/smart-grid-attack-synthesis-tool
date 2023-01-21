@@ -27,3 +27,6 @@ The above picture depicts the TTE for an IEEE 39 Bus power grid for both the att
 All the above comparisons justify that our attack model is more effective and faster in making a power grid unstable compared to the state-of-the-art. 
 
 # Prerequisite (for running the tool):
+* Install S-Taliro matlab tool-box from https://sites.google.com/a/asu.edu/s-taliro/s-taliro
+* 
+
