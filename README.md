@@ -74,18 +74,19 @@ The user specifies the time duration in seconds for which the simulation is to b
 ![Screenshot_20230121_133627](https://user-images.githubusercontent.com/96375883/213867221-523b208a-e61e-4614-9ccf-178ec20d99f7.png)<br />
 
 **Step 7:**
-The user choses a solver for the simulink model using this tab.</br>
+The user choses a solver for the simulink model using this tab.<br />
 ![Presentation_gui_tool pptx (1)](https://user-images.githubusercontent.com/96375883/213868879-961e436c-b6e3-49ca-9a2c-1b3b7178d105.svg)<br />
 ![Screenshot_20230121_133650](https://user-images.githubusercontent.com/96375883/213867273-31b91070-2ef0-430b-9d1f-862e09ea75f6.png)<br />
 
 **Step 8:**
-Time time step at which the model will be executed is specified in the Sample Time tab.</br>
+Time time step at which the model will be executed is specified in the Sample Time tab.<br />
 ![Presentation_gui_tool pptx](https://user-images.githubusercontent.com/96375883/213868786-e7868ba6-9201-44c9-a4b7-8f8188bf4427.svg)<br />
 ![Screenshot_20230121_133713](https://user-images.githubusercontent.com/96375883/213867312-332964d8-fbe6-465d-9bad-8c3cd6976184.png)<br />
 
 **Step 9:**
-The initial value for false data generation is specified by the user in this tab.</br> 
-![Screenshot_20230121_133735](https://user-images.githubusercontent.com/96375883/213867349-437b66a0-4095-4d45-ae02-092a9398071f.png)
+The initial value for false data generation is specified by the user in this tab.<br /> 
+![Presentation_gui_tool pptx](https://user-images.githubusercontent.com/96375883/213868954-c619a8e2-436b-4f83-b12b-3300273ca9e4.svg)<br />
+![Screenshot_20230121_133735](https://user-images.githubusercontent.com/96375883/213867349-437b66a0-4095-4d45-ae02-092a9398071f.png)<br />
 
 **Step 10:**
 Here in InputMin and InputMax the user specifies the input range for false-data injection, in Control Points tab the samples points for false-data injection is selected by the user, in interpolation type the user specifies how to insert false-data in the simulation time.</br> 
