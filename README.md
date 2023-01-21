@@ -33,3 +33,5 @@ All the above comparisons justify that our attack model is more effective and fa
 * Platform: _32/64 bit Windows Opersting System
 * External Tools: Matlab R2021a
 * Other Requirements: S-taliro tool-box https://sites.google.com/a/asu.edu/s-taliro/s-taliro , Matlab Reinforcement Learning Toolbox
+* Setup S-taliro toolbox by pasting "setup_staliro.m" command in the Matlab command window.
+* Copy the .mat files in 
