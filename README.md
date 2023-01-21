@@ -55,7 +55,8 @@ For example, Suppose there are two outputs x = [y1,y2]. Where let y1 be the freq
  Predicate r1 checks if y1 < = b1 (b1 is a constraint).
  therefore matrix A = [1 0] such that Ax <= b1
  similarly to check y1 >= b2 (b2 is a constraint) , A = [-1 0]  such that -Ax <= -b2 which implies Ax >= b2.
- ![GUI_STEP3](![Screenshot 2023-01-21 175257](https://user-images.githubusercontent.com/96375883/213866744-8742c049-158a-44ee-8ce1-5405ef4fcfd3.png)
+![Presentation_gui_tool pptx](https://user-images.githubusercontent.com/96375883/213867983-ad64e988-15ca-46ae-918d-51dd2aefd837.svg)<br />
+![Screenshot 2023-01-21 175257](https://user-images.githubusercontent.com/96375883/213866744-8742c049-158a-44ee-8ce1-5405ef4fcfd3.png)
  
  **Step 4:**
  The user specifies which IEEE bus architecture did he/she upload. 
