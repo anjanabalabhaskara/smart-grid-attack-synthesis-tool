@@ -45,6 +45,6 @@ The user specifies the time duration in seconds for which the simulation is to b
 ![GUI_STEP6](https://user-images.githubusercontent.com/103938112/213858471-ad81cf97-6657-4e6a-96b0-cc23849ccca0.png)
 
 **Step 7:**
-The user chhoses a solver for the simulink model using this tab.<\br>
+The user chhoses a solver for the simulink model using this tab.</br>
 ![GUI_STEP7](https://user-images.githubusercontent.com/103938112/213858567-c69eb222-e11a-4167-aa3d-7a964cdbda05.png)
 
