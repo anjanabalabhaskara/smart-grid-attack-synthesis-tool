@@ -12,6 +12,8 @@ This tool combines False Data Injection (FDI) and Load Alteration (LA) attacks t
 This tool requires an user to input a power grid Simulink model with. mdl extension. The user is also required to label the points in the simulink model where he desires to attack.
 ![tool1](https://user-images.githubusercontent.com/103938112/213846935-f0252abd-7c63-43cb-b0d4-58fc5f5728b6.png)
 
+##Simulink work-around
+![observation](https://user-images.githubusercontent.com/96375883/213860270-7e73379f-ee56-4560-89e4-d9e1a0372473.png)
 
 Getting Started
 ================
