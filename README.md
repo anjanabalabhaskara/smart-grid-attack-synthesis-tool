@@ -1,5 +1,5 @@
 # Counter Example Guided Attack Synthesis Tool For Smart Grid
-We have developed a tool to find attack vectors which remain undiscovered by the detection units present in a grid. The vectors tamper the sensor and actuator data of Smart Grid. These attack vectors target specific components of the grid causing abnormal behavior like brown-outs, without getting discovered by the anomaly detectors present in the grid. We use a methodology that synthesizes attack vectors using a learning-based probabilistic engine (Reinforcement Learning (RL)) and a stochastic optimization-based formal engine (S-Taliro). As a first phase, a RL-based attacker agent learns to inject the most effective input load altering attack (LAA) sequences  to push the system to its transient states for an elongated period as quickly as possible without raising any alarm. The probabilistic LAA sequences thus recovered are automatically augmented in the system model. This is given as input to a well-known simulation-based falsification engine S-TaLiRo that synthesizes false data injection attack (FDIA) sequences with the aim to falsify the set points of the generation unit. These additional FDIA perturbations thus uncovered, are formally guaranteed to send the generator units out of synchrony with the rest of the power grid exploiting the transient characteristics induced by the RL agent while maintaining stealth.
+We have developed a tool to find attack vectors for smart grid models that remain undiscovered by the detection units present in the grid. The vectors tamper the sensor and actuator data of Smart Grid. These attack vectors target specific components of the grid causing abnormal behavior like brown-outs, without getting discovered by the anomaly detectors present in the grid. We use a methodology that synthesizes attack vectors using a learning-based probabilistic engine (Reinforcement Learning (RL)) and a stochastic optimization-based formal engine (S-Taliro). As a first phase, an RL-based attacker agent learns to inject the most effective input load-altering attack (LAA) sequences to push the system to its transient states for an elongated period as quickly as possible without raising any alarm. The probabilistic LAA sequences thus recovered are automatically augmented in the system model. This is given as input to a well-known simulation-based falsification engine S-TaLiRo that synthesizes false data injection attack (FDIA) sequences intending to falsify the set points of the generation unit. These additional FDIA perturbations thus uncovered, are formally guaranteed to send the generator units out of synchrony with the rest of the power grid exploiting the transient characteristics induced by the RL agent while maintaining stealth.
 
 <img src="https://user-images.githubusercontent.com/103938112/213864878-fcb931a9-4dee-45d2-a4dd-b076f14dfa48.png" width="90%" height="90%"></br>
 
@@ -74,23 +74,21 @@ The user specifies the time duration in seconds for which the simulation is to b
 ![Screenshot_20230121_133627](https://user-images.githubusercontent.com/96375883/213867221-523b208a-e61e-4614-9ccf-178ec20d99f7.png)<br />
 
 **Step 7:**
-The user choses a solver for the simulink model using this tab.<br />
+The user choses a solver for the simulink model using this tab.</br>
 ![Presentation_gui_tool pptx (1)](https://user-images.githubusercontent.com/96375883/213868879-961e436c-b6e3-49ca-9a2c-1b3b7178d105.svg)<br />
 ![Screenshot_20230121_133650](https://user-images.githubusercontent.com/96375883/213867273-31b91070-2ef0-430b-9d1f-862e09ea75f6.png)<br />
 
 **Step 8:**
-Time time step at which the model will be executed is specified in the Sample Time tab.<br />
+Time time step at which the model will be executed is specified in the Sample Time tab.</br>
 ![Presentation_gui_tool pptx](https://user-images.githubusercontent.com/96375883/213868786-e7868ba6-9201-44c9-a4b7-8f8188bf4427.svg)<br />
 ![Screenshot_20230121_133713](https://user-images.githubusercontent.com/96375883/213867312-332964d8-fbe6-465d-9bad-8c3cd6976184.png)<br />
 
 **Step 9:**
-The initial value for false data generation is specified by the user in this tab.<br /> 
-![Presentation_gui_tool pptx](https://user-images.githubusercontent.com/96375883/213868954-c619a8e2-436b-4f83-b12b-3300273ca9e4.svg)<br />
-![Screenshot_20230121_133735](https://user-images.githubusercontent.com/96375883/213867349-437b66a0-4095-4d45-ae02-092a9398071f.png)<br />
+The initial value for false data generation is specified by the user in this tab.</br> 
+![Screenshot_20230121_133735](https://user-images.githubusercontent.com/96375883/213867349-437b66a0-4095-4d45-ae02-092a9398071f.png)
 
 **Step 10:**
-Here in InputMin and InputMax the user specifies the input range for false-data injection, in Control Points tab the samples points for false-data injection is selected by the user, in interpolation type the user specifies how to insert false-data in the simulation time.<br /> 
-![Presentation_gui_tool pptx (1)](https://user-images.githubusercontent.com/96375883/213869042-9a16d438-519a-4fcb-85c5-656b2f12fe2e.svg)<br />
+Here in InputMin and InputMax the user specifies the input range for false-data injection, in Control Points tab the samples points for false-data injection is selected by the user, in interpolation type the user specifies how to insert false-data in the simulation time.</br> 
 ![inputs](https://user-images.githubusercontent.com/96375883/213867400-c0e01f57-daae-4e9f-a124-1843e95e6a72.png)
 
 **Step 11:**
