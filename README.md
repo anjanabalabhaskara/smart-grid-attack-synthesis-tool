@@ -59,7 +59,8 @@ For example, Suppose there are two outputs x = [y1,y2]. Where let y1 be the freq
 ![Screenshot 2023-01-21 175257](https://user-images.githubusercontent.com/96375883/213866744-8742c049-158a-44ee-8ce1-5405ef4fcfd3.png)
  
  **Step 4:**
- The user specifies which IEEE bus architecture did he/she upload. 
+ The user specifies which IEEE bus architecture did he/she upload.
+![Presentation_gui_tool pptx (1)](https://user-images.githubusercontent.com/96375883/213868046-308bee56-3368-4d54-864c-a5eb2fb96e3e.svg)<br />
 ![bus_architecture](https://user-images.githubusercontent.com/96375883/213867082-b319fd4e-5c9a-42d6-8097-52f9b76e4f53.png)<br />
 
 **Step 5:**
