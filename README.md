@@ -99,5 +99,7 @@ Finally the user starts the simulation by pressing the run simulation button.</b
 ![Screenshot_20230121_142611](https://user-images.githubusercontent.com/96375883/213867426-34a240ae-ca6f-4ee0-8539-43c37711faed.png)<br />
 
 ## Result plot
-![output_plot](https://user-images.githubusercontent.com/96375883/213879574-092d5cec-8773-4edc-89fd-4f751a4860fa.png)
+![frequency_comparison_9_bus_p](https://user-images.githubusercontent.com/103938112/213890471-4c0f5fb2-e418-4db2-842b-02b1a9b83564.png)</br>
+A sample output plot is provided above.
+
 
