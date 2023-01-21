@@ -81,7 +81,7 @@ The initial value for false data generation is specified by the user in this tab
 
 **Step 10:**
 Here in InputMin and InputMax the user specifies the input range for false-data injection, in Control Points tab the samples points for false-data injection is selected by the user, in interpolation type the user specifies how to insert false-data in the simulation time.</br> 
-![GUI_STEP10](https://user-images.githubusercontent.com/103938112/213860006-795c0bb5-15a1-4d16-86c5-dace6cf0446c.png)
+![inputs](https://user-images.githubusercontent.com/96375883/213867400-c0e01f57-daae-4e9f-a124-1843e95e6a72.png)
 
 **Step 11:**
 Finally the user starts the simulation by pressing the run simulation button.</br>
