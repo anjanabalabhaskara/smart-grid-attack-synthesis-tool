@@ -37,7 +37,7 @@ All the above comparisons justify that our attack model is more effective and fa
 * Setup S-taliro toolbox by pasting "setup_staliro.m" command in the Matlab command window.
 * Copy all the .mat files from folder mat_files and simulink models from folder rl_models_simulink in the repository to the path C:\trunk\demos\SystemModelsAndData
 * Copy staliro_gui.m, load_mat.m and staliro_gui.fig to the path C:\trunk
-* For uploading the designed power grid model for an attack to the Graphical User Interface (GUI) tool the user is required to insert an RL agent block in his/her Simulink model. The user then labels the attack points for FDIA and LAA in the model through ports available in Simulink. The user also needs to collect the output parameter he/she is interested to view the waveforms into a vector and connect it to the suitable port.
+* For uploading the designed power grid model for an attack to the Graphical User Interface (GUI) tool the user is required to insert an RL agent block in his/her Simulink model. The user then labels the attack points for FDIA and LAA in the model through ports available in Simulink. (The Rl agent induces LAA by manipulating the circuit breaker switching signal and S-Taliro induces FDIA by tampering the reference set point of the generator unit). The user also needs to collect the output parameter he/she is interested to view the waveforms into a vector and connect it to the suitable port.
 * Run "H = staliro_gui" in matlab command window to open the Graphical User Interface (GUI)
 
 # Demonstration of the Graphical User Interface (GUI) tool:
