@@ -40,8 +40,9 @@ All the above comparisons justify that our attack model is more effective and fa
 
 # Demonstration of the Graphical User Interface (GUI) tool:
 
-**Simulink file work-around
+**Simulink file work-around**
 * Use "inport" block to collect attack vectors from the tool and "demux" block to split vectors generated from "RL-agent" and "S-taliro"(index 1 is vector generated from "RL-agent", index 2 is vector generated from "S-taliro")<br />![Screenshot_20230121_140131](https://user-images.githubusercontent.com/96375883/213871224-6dfdada3-7f47-4526-9023-d1b500555e0a.png)
+* For "RL-agent" observation, the frequency of the generators and residues are collected in order using "mux" block as shown in figure and sent through "outport1"<br />![Screenshot_20230121_135625](https://user-images.githubusercontent.com/96375883/213871329-56bff245-d100-44b1-9436-712b4be67bfd.png)
 * 
 
 **Step 1:**
