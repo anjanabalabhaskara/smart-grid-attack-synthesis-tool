@@ -39,6 +39,11 @@ All the above comparisons justify that our attack model is more effective and fa
 * Run "H = staliro_gui" in matlab command window to open the Graphical User Interface (GUI)
 
 # Demonstration of the Graphical User Interface (GUI) tool:
+
+**Simulink file work-around
+* Use "inport" block to collect attack vectors from the tool and "demux" block to split vectors generated from "RL-agent" and "S-taliro"(index 1 is vector generated from "RL-agent", index 2 is vector generated from "S-taliro")<br />![Screenshot_20230121_140131](https://user-images.githubusercontent.com/96375883/213871224-6dfdada3-7f47-4526-9023-d1b500555e0a.png)
+* 
+
 **Step 1:**
 The user uploads his/her power grid simulink model (in .mdl format) (eg. IEEE5bus.mdl, IEEE9bus.mdl, IEEE14bus.mdl, IEEE39bus.mdl) to the tool by pressing the Select Model button. The file explorer button pops up from where the user can select his/her power grid simulink model.<br />
 ![Presentation_gui_tool pptx (3)](https://user-images.githubusercontent.com/96375883/213870799-e25b9d1d-8517-4bd8-91ff-0f6fe962d926.svg) <br />
