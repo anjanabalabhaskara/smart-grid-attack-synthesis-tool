@@ -16,4 +16,5 @@ This tool requires an user to input a power grid Simulink model with. mdl extens
 Getting Started
 ================
 We now give a step-by-step demonstration of how the tool works.
+
 Step 1:
