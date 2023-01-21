@@ -27,7 +27,7 @@ In the above figure r1 represents upper safety limit for grid frequency and r2 r
 
 Step 3:
 In the Predicate settings tab, the user maps the logic specification in step 2 to the predicates over the output space of the model.
-For example, Suppose there are two outputs x = [y1,y2] . Where, let y1 is the frequency of a generator in the grid and y2 is the residue vale of the detection unit attached to that generator.
+For example, Suppose there are two outputs x = [y1,y2]. Where let y1 be the frequency of a generator in the grid and y2 is the residue value of the detection unit attached to that generator.
  Predicate r1 checks if y1 < = b1 (b1 is a constraint).
  therefore matrix A = [1 0] such that Ax <= b1
  similarly to check y1 >= b2 (b2 is a constraint) , A = [-1 0]  such that -Ax <= -b2 which implies Ax >= b2.
