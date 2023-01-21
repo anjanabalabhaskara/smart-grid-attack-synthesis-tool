@@ -13,7 +13,10 @@ This tool requires an user to input a power grid Simulink model with. mdl extens
 ![tool1](https://user-images.githubusercontent.com/103938112/213846935-f0252abd-7c63-43cb-b0d4-58fc5f5728b6.png)
 
 ##Simulink work-around
-![observation](https://user-images.githubusercontent.com/96375883/213860270-7e73379f-ee56-4560-89e4-d9e1a0372473.png)
+The user simulink model needs some work around. 
+* The Simulink file should have .mdl extension
+* For input attack vector:
+
 
 Getting Started
 ================
