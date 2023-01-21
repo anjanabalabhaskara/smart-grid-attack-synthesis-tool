@@ -40,7 +40,7 @@ All the above comparisons justify that our attack model is more effective and fa
 
 # Demonstration of the Graphical User Interface (GUI) tool:
 **Step 1:**
-The user uploads his/her power grid simulink model (in .mdl format) (eg. IEEE (5 bus, 9 bus, 14 bus, 39 bus)) to the tool by pressing the Select Model button. The file explorer button pops up from where the user can select his/her power grid simulink model.<br />
+The user uploads his/her power grid simulink model (in .mdl format) (eg. IEEE5bus.mdl, IEEE9bus.mdl, IEEE14bus.mdl, IEEE39bus.mdl) to the tool by pressing the Select Model button. The file explorer button pops up from where the user can select his/her power grid simulink model.<br />
 ![Presentation_gui_tool pptx](https://user-images.githubusercontent.com/96375883/213867905-e1ab54ed-1125-408a-8848-b14e6cfaf77a.svg)<br />
 ![Screenshot 2023-01-21 100606](https://user-images.githubusercontent.com/103938112/213847320-e21604a5-b92b-43b1-9408-130dc4ca08a2.png)
 **Step 2:**
