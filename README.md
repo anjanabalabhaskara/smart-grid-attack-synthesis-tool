@@ -65,7 +65,7 @@ The user specifies how many times the simulink model will execute by pressing th
 
 **Step 6:**
 The user specifies the time duration in seconds for which the simulation is to be continued in the Simulation Time tab.
-![GUI_STEP6](https://user-images.githubusercontent.com/103938112/213858471-ad81cf97-6657-4e6a-96b0-cc23849ccca0.png)
+![Screenshot_20230121_133627](https://user-images.githubusercontent.com/96375883/213867221-523b208a-e61e-4614-9ccf-178ec20d99f7.png)
 
 **Step 7:**
 The user chhoses a solver for the simulink model using this tab.</br>
