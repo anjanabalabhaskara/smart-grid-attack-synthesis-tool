@@ -41,5 +41,6 @@ For example, Suppose there are two outputs x = [y1,y2]. Where let y1 be the freq
 The user starts the simulation by pressing the run button
 
 **Step 6:**
-The user specifies the time duration for which the simulation is to be continued in the Simulation Time tab.
+The user specifies the time duration in seconds for which the simulation is to be continued in the Simulation Time tab.
+![GUI_STEP6](https://user-images.githubusercontent.com/103938112/213858471-ad81cf97-6657-4e6a-96b0-cc23849ccca0.png)
 
