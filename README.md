@@ -20,3 +20,6 @@ We now give a step-by-step demonstration of how the tool works.
 Step 1:
 The user uploads his/her power grid model to the tool by pressing the Select Model button. The file explorer button pops up from where the user can select his/her power grid simulink model.
 ![Screenshot 2023-01-21 100606](https://user-images.githubusercontent.com/103938112/213847320-e21604a5-b92b-43b1-9408-130dc4ca08a2.png)
+Step 2:
+In the specification tab the user enters the safety properties for the power grid (i.e, upper and lower bound limit for power grid frequency) and set point value for the detection unit in the grid. 
+
