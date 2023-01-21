@@ -10,7 +10,8 @@ GUI description
 This tool combines False Data Injection (FDI) and Load Alteration (LA) attacks to make a power grid unstable while remaining undetected by the detection units present in a grid. The load alteration attacks are induced by a reinforcement learning (RL) agent and the FDI attacks are done by a simulation based formal tool STaliro.
 
 This tool requires an user to input a power grid Simulink model with. mdl extension. The user is also required to label the points in the power grid model where he desires to attack.
-![alt text](images/gui_screen.png)
+![tool1](https://user-images.githubusercontent.com/103938112/213846935-f0252abd-7c63-43cb-b0d4-58fc5f5728b6.png)
+
 
 Getting Started
 ================
