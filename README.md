@@ -18,3 +18,4 @@ Getting Started
 We now give a step-by-step demonstration of how the tool works.
 
 Step 1:
+The user uploads his/her power grid model to the tool by pressing the Select Model button. The file explorer button pops up from where the user can select his/her power grid simulink model.
