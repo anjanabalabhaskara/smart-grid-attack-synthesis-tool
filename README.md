@@ -1,3 +1,4 @@
+# Power-Grid-Attack-Comparison
 1.	We compare the attack model developed in our work with that of [9] for IEEE (5, 9, 14 and 39) bus test cases.
 2.	We use the metric Time To Emergence (TTE) to evaluate our comparison.
 3.	TTE is the time from the onset of an attack sequence to the first time instant when the change in frequency (∆ω), in a power grid is out of the safety region (εL, εU). Where, εL = −0.5Hz and εU = 0.5Hz (refer [9]).
