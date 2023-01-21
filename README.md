@@ -100,7 +100,9 @@ Finally the user starts the simulation by pressing the run simulation button.</b
 ![Screenshot_20230121_142611](https://user-images.githubusercontent.com/96375883/213867426-34a240ae-ca6f-4ee0-8539-43c37711faed.png)<br />
 
 ## Result plot
-<img src="https://user-images.githubusercontent.com/103938112/213890471-4c0f5fb2-e418-4db2-842b-02b1a9b83564.png" width="85%" height="80%"></br>
+
+<img src="https://user-images.githubusercontent.com/103938112/213894191-8e587186-c6d1-4173-9be6-25ffbb3ee784.png" width="80%" height="75%"></br>
+
 A sample output plot is provided above.
 
 
