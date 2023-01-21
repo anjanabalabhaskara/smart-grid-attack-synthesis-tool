@@ -38,7 +38,7 @@ For example, Suppose there are two outputs x = [y1,y2]. Where let y1 be the freq
  ![GUI_STEP4](https://user-images.githubusercontent.com/103938112/213849659-daea62e2-c310-4f01-8ef9-de309087edd3.png)
 
 **Step 5:**
-The user starts the simulation by pressing the run button
+The user specifies how many times the simulink model will execute by pressing the Number of run button
 
 **Step 6:**
 The user specifies the time duration in seconds for which the simulation is to be continued in the Simulation Time tab.
