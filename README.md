@@ -32,4 +32,8 @@ For example, Suppose there are two outputs x = [y1,y2]. Where let y1 be the freq
  therefore matrix A = [1 0] such that Ax <= b1
  similarly to check y1 >= b2 (b2 is a constraint) , A = [-1 0]  such that -Ax <= -b2 which implies Ax >= b2.
  ![GUI_STEP3](https://user-images.githubusercontent.com/103938112/213849028-3915a34b-2070-4fa1-a037-ffc7be1474c7.png)
+ 
+ **Step 4:**
+ 
+ 
 
