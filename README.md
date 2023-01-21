@@ -85,5 +85,5 @@ Here in InputMin and InputMax the user specifies the input range for false-data 
 
 **Step 11:**
 Finally the user starts the simulation by pressing the run simulation button.</br>
-![GUI_STEP11](https://user-images.githubusercontent.com/103938112/213860176-8944b0ea-9c22-41bf-bf54-7644e6fd448d.png)
+![Screenshot_20230121_142611](https://user-images.githubusercontent.com/96375883/213867426-34a240ae-ca6f-4ee0-8539-43c37711faed.png)
 
