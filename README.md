@@ -44,7 +44,7 @@ The user uploads his/her power grid simulink model (in .mdl format) (eg. IEEE (5
 ![Screenshot 2023-01-21 100606](https://user-images.githubusercontent.com/103938112/213847320-e21604a5-b92b-43b1-9408-130dc4ca08a2.png)
 **Step 2:**
 In the specification tab, the user enters the safety properties for the power grid (i.e, the upper and lower bound limit for power grid frequency) and set the point value for the detection unit in the grid in the form of the MTL equation. 
-![GUI_STEP2](https://user-images.githubusercontent.com/103938112/213848253-6e77bccb-2f08-41f4-a879-a5479fe5e45c.png)
+![GUI_STEP2](![specification](https://user-images.githubusercontent.com/96375883/213866858-b2d97129-090a-44ae-b781-28797c205b73.png)
 In the above figure r1 represents upper safety limit for grid frequency and r2 represents lower safety limit for grid frequency. r3 represents the threshold value for the residue based detection unit.
 
 **Step 3:**
