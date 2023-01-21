@@ -23,5 +23,5 @@ The user uploads his/her power grid model to the tool by pressing the Select Mod
 Step 2:
 In the specification tab, the user enters the safety properties for the power grid (i.e, upper and lower bound limit for power grid frequency) and set the point value for the detection unit in the grid in the form of the MTL equation. 
 ![GUI_STEP2](https://user-images.githubusercontent.com/103938112/213848253-6e77bccb-2f08-41f4-a879-a5479fe5e45c.png)
-
+In the above figure r1 represents upper safety limit for grid frequency and r2 represents lower safety limit for grid frequency. r3 represents the threshold value for the detection unit.
 
