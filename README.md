@@ -18,9 +18,10 @@ The tool is designed to find attack vectors for smart grid models that remain un
 
    <img src="https://user-images.githubusercontent.com/103938112/213914338-4c0538cd-ac0d-424b-8bd4-a65ea6b625f0.png" width="85%" height="80%"></br>
  
-   The above picture depicts the TTE for an IEEE 5 Bus power grid for both the attack models. The TTE for our case is 0.7 seconds while that for [9] is 2.5 seconds.  
+   The above picture depicts the TTE for an IEEE 5 Bus power grid for both the attack models. The TTE for our case is 0.7 seconds while that for [9] is 2.5 seconds.
+   
+   <img src="https://user-images.githubusercontent.com/103938112/213914394-1afbc0ee-8abc-498b-8548-75925a8f0186.png" width="85%" height="80%"></br>
 
-   <img src="https://user-images.githubusercontent.com/103938112/213830986-ae446338-b61c-4b45-ba2b-f4447661a72c.png" width="85%" height="80%"></br>
    The above picture depicts the TTE for an IEEE 9 Bus power grid for both the attack models. The TTE for our case is 0.1 seconds while that for [9] is 0.7 seconds. 
 
 
