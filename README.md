@@ -44,7 +44,7 @@ All the above comparisons justify that our attack model is more effective and fa
 
 **Step 1:**
 The user uploads his/her power grid simulink model (in .mdl format) (eg. IEEE5bus.mdl, IEEE9bus.mdl, IEEE14bus.mdl, IEEE39bus.mdl) to the tool by pressing the Select Model button. The file explorer button pops up from where the user can select his/her power grid simulink model.<br />
-![Presentation_gui_tool pptx (3)](https://user-images.githubusercontent.com/96375883/213870799-e25b9d1d-8517-4bd8-91ff-0f6fe962d926.svg) <br />
+![Presentation_gui_tool pptx (5)](https://user-images.githubusercontent.com/96375883/213904029-e02e67cf-60c4-42d9-bf18-a3856160e31d.svg) <br />
 **Step 2:**
 Next in the specification tab, the user enters the safety properties for the power grid (i.e, the upper and lower bound limit for power grid frequency) and set the point value for the detection unit in the grid in the form of the MTL equation. <br />
 ![Presentation_gui_tool pptx (4)](https://user-images.githubusercontent.com/96375883/213870796-74d72394-6639-4ee3-b031-35bd5d6cd3a8.svg)<br />
