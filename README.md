@@ -79,18 +79,15 @@ Time time step at which the model will be executed is specified in the Sample Ti
 
 **Step 9:**
 The initial value for false data generation is specified by the user in this tab.<br />
-![Presentation_gui_tool pptx](https://user-images.githubusercontent.com/96375883/213869818-b4c43b0b-661f-4cb9-a24b-93c78bff8fd9.svg)<br />
-![Screenshot_20230121_133735](https://user-images.githubusercontent.com/96375883/213867349-437b66a0-4095-4d45-ae02-092a9398071f.png)<br />
+![Presentation_gui_tool pptx (13)](https://user-images.githubusercontent.com/96375883/213904016-62b644ef-7068-4bc4-9814-f733293c2e4e.svg)<br />
 
 **Step 10:**
 Here in InputMin and InputMax the user specifies the input range for false-data injection, in Control Points tab the samples points for false-data injection is selected by the user, in interpolation type the user specifies how to insert false-data in the simulation time.<br />
-![Presentation_gui_tool pptx (1)](https://user-images.githubusercontent.com/96375883/213869823-f35cf9e9-684a-4fe7-8f2c-a33e9c4b2855.svg)<br />
-![inputs](https://user-images.githubusercontent.com/96375883/213867400-c0e01f57-daae-4e9f-a124-1843e95e6a72.png)<br />
+![Presentation_gui_tool pptx (14)](https://user-images.githubusercontent.com/96375883/213904015-2c6ee61f-fca1-40a1-a183-14581db112c1.svg)<br />
 
 **Step 11:**
 Finally the user starts the simulation by pressing the run simulation button.</br>
-![Presentation_gui_tool pptx (2)](https://user-images.githubusercontent.com/96375883/213869828-63d53269-0ddf-4c5c-b642-2587930732a8.svg)<br />
-![Screenshot_20230121_142611](https://user-images.githubusercontent.com/96375883/213867426-34a240ae-ca6f-4ee0-8539-43c37711faed.png)<br />
+![Presentation_gui_tool pptx (15)](https://user-images.githubusercontent.com/96375883/213904013-0e62f5a7-362f-452c-891e-b12382fe7110.svg)<br />
 
 ## Result plot
 
