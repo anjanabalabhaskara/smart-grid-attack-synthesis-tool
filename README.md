@@ -14,7 +14,7 @@ The tool is designed to find attack vectors for smart grid models that remain un
 
 ![DAC1](https://user-images.githubusercontent.com/103938112/213914550-1db95379-f3c2-4efb-a019-fb181a5970c5.png)
 
-6. The frequency deviation of power grid along with the TTE for the two attack models are demonstrated below.</br> 
+The frequency deviation of power grid along with the TTE for the two attack models are demonstrated below.</br> 
 
    <img src="https://user-images.githubusercontent.com/103938112/213914338-4c0538cd-ac0d-424b-8bd4-a65ea6b625f0.png" width="85%" height="80%"></br>
  
