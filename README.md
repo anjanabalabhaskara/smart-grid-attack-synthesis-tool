@@ -7,11 +7,12 @@ The tool is designed to find attack vectors for smart grid models that remain un
 
 ## Comaprison of our tool with State of the Art
 
-1.	We compare the attack model developed in our work with that of [9] for IEEE (5, 9, 14 and 39) bus test cases.
-2.	We use the metric Time To Emergence (TTE) to evaluate our comparison.
-3.	TTE is the time from the onset of an attack sequence to the first time instant when the change in frequency (∆ω), in a power grid is out of the safety region [-5 Hz, 5 Hz] (refer [9]).
-4.	An attack is considered to be more effective if it takes minimum TTE to push the grid frequency out of the safety range.
-5.	The TTE metrics for the two attack model are tabulated below.<br />
+1.	The attack model in [7] tampers with one circuit breaker control signal to make the power grid frequency unsafe. However, there remains no guarantee and evidence in their work that the grid frequency will not return to its safety range in the attack interval. Our model on the other hand combines a Load Alteration Attack (LAA) induced by an RL agent with a False Data Injection Attack (FDIA) produced by the simulation-based verification tool S-taliro that formally guarantees that the grid frequency deviates quickly and remains out of safety range while maintaining stealth.
+2.	We compare the attack model developed in our work with that of [9] for IEEE (5, 9, 14 and 39) bus test cases.
+3.	We use the metric Time To Emergence (TTE) to evaluate our comparison.
+4.	TTE is the time from the onset of an attack sequence to the first time instant when the change in frequency (∆ω), in a power grid is out of the safety region [-5 Hz, 5 Hz] (refer [9]).
+5.	An attack is considered to be more effective if it takes minimum TTE to push the grid frequency out of the safety range.
+6.	The TTE metrics for the two attack model are tabulated below.<br />
 ![ComparisonTable](https://user-images.githubusercontent.com/103938112/213844734-af3ce39d-4c57-4179-9d8e-3354a43c5823.png)
 
 6. The frequency deviation of power grid along with the TTE for the two attack models are demonstrated below.</br> 
