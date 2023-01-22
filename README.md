@@ -60,8 +60,7 @@ For example, Suppose there are two outputs x = [y1,y2]. Where let y1 be the freq
  
  **Step 4:**
  The user specifies which IEEE bus architecture did he/she upload by clicking the appropriate button. 
-![Presentation_gui_tool pptx (1)](https://user-images.githubusercontent.com/96375883/213868046-308bee56-3368-4d54-864c-a5eb2fb96e3e.svg)<br />
-![bus_architecture](https://user-images.githubusercontent.com/96375883/213867082-b319fd4e-5c9a-42d6-8097-52f9b76e4f53.png)<br />
+![Presentation_gui_tool pptx (8)](https://user-images.githubusercontent.com/96375883/213904024-bca0481e-962a-411a-9f56-1eac85d403ca.svg) <br />
 
 **Step 5:**
 The user specifies how many times the simulink model will execute in the run tab
