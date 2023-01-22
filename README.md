@@ -7,7 +7,7 @@ The tool is designed to find attack vectors for smart grid models that remain un
 
 ## Comaprison of our tool with State of the Art
 
-1.	The attack model in [7] tampers with one circuit breaker control signal to make the power grid frequency unsafe. However, there remains no guarantee and evidence in their work that the grid frequency will not return to its safety range in the attack interval. Our model on the other hand combines a Load Alteration Attack (LAA) induced by an RL agent with a False Data Injection Attack (FDIA) produced by the simulation-based verification tool S-taliro that formally guarantees that the grid frequency deviates quickly and remains out of safety range while maintaining stealth.
+1.	The attack model in [7] tampers with one circuit breaker control signal to make the power grid frequency unsafe. However, there remains no guarantee and evidence in their work that the grid frequency will not return to its safety range in the attack interval. Our model on the other hand combines Load Alteration Attack (LAA) induced by an RL agent with False Data Injection Attack (FDIA) produced by the simulation-based verification tool S-taliro that formally guarantees that the grid frequency deviates quickly and remains out of safety range while maintaining stealth.
 2.	We compare the attack model developed in our work with that of [9] for IEEE (5, 9, 14 and 39) bus test cases.
 3.	We use the metric Time To Emergence (TTE) to evaluate our comparison.
 4.	TTE is the time from the onset of an attack sequence to the first time instant when the change in frequency (∆ω), in a power grid is out of the safety region [-5 Hz, 5 Hz] (refer [9]).
