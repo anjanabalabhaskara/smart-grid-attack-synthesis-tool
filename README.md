@@ -35,7 +35,7 @@ The tool is designed to find attack vectors for smart grid models that remain un
 
 ## Prerequisites (for running the tool):
 
-* Platform: 32/64 bit Windows Opersting System
+* Platform: 32/64 bit Windows Operating System
 * External Tools: Matlab R2021a
 * Other Requirements: S-taliro tool-box https://sites.google.com/a/asu.edu/s-taliro/s-taliro , Matlab Reinforcement Learning Toolbox
 * Setup S-taliro toolbox by pasting "setup_staliro.m" command in the Matlab command window.
