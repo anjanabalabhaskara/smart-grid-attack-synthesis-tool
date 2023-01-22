@@ -64,9 +64,7 @@ For example, Suppose there are two outputs x = [y1,y2]. Where let y1 be the freq
 
 **Step 5:**
 The user specifies how many times the simulink model will execute in the run tab
-![Presentation_gui_tool pptx](https://user-images.githubusercontent.com/96375883/213868412-cb3ca0f3-3bcd-4be7-acd0-d57eec060e5f.svg)<br />
-![Screenshot_20230121_133607](https://user-images.githubusercontent.com/96375883/213867174-4dcd52fc-9b52-4d9e-98e2-bcd241a37204.png)<br />
-
+![Presentation_gui_tool pptx (9)](https://user-images.githubusercontent.com/96375883/213904023-4528cde7-aec1-4d3f-89fe-fcdbbc0272ee.svg)<br />
 **Step 6:**
 The user specifies the time duration in seconds for which the simulation is to be continued in the Simulation Time tab.
 ![Presentation_gui_tool pptx](https://user-images.githubusercontent.com/96375883/213868630-b11035c4-5cb3-4a09-8b0f-1bea9f8a9c80.svg)<br />
