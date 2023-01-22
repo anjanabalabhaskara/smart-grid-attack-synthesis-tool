@@ -75,8 +75,7 @@ The user choses a solver for the simulink model using this tab.<br />
 
 **Step 8:**
 Time time step at which the model will be executed is specified in the Sample Time tab.<br />
-![Presentation_gui_tool pptx](https://user-images.githubusercontent.com/96375883/213868786-e7868ba6-9201-44c9-a4b7-8f8188bf4427.svg)<br />
-![Screenshot_20230121_133713](https://user-images.githubusercontent.com/96375883/213867312-332964d8-fbe6-465d-9bad-8c3cd6976184.png)<br />
+![Presentation_gui_tool pptx (12)](https://user-images.githubusercontent.com/96375883/213904018-c0ef76fb-85d6-4ebd-bc26-91d50d81fae3.svg)<br />
 
 **Step 9:**
 The initial value for false data generation is specified by the user in this tab.<br />
