@@ -47,7 +47,7 @@ The user uploads his/her power grid simulink model (in .mdl format) (eg. IEEE5bu
 ![Presentation_gui_tool pptx (5)](https://user-images.githubusercontent.com/96375883/213904029-e02e67cf-60c4-42d9-bf18-a3856160e31d.svg) <br />
 **Step 2:**
 Next in the specification tab, the user enters the safety properties for the power grid (i.e, the upper and lower bound limit for power grid frequency) and set the point value for the detection unit in the grid in the form of the MTL equation. <br />
-![Presentation_gui_tool pptx (4)](https://user-images.githubusercontent.com/96375883/213870796-74d72394-6639-4ee3-b031-35bd5d6cd3a8.svg)<br />
+![Presentation_gui_tool pptx (6)](https://user-images.githubusercontent.com/96375883/213904027-d48d7b17-e395-48fd-aed1-5d12633d8ffa.svg)<br />
 In the above figure r1 represents upper safety limit for grid frequency and r2 represents lower safety limit for grid frequency. r3 represents the threshold value for the residue based detection unit.
 
 **Step 3:**
@@ -56,8 +56,7 @@ For example, Suppose there are two outputs x = [y1,y2]. Where let y1 be the freq
  Predicate r1 checks if y1 < = b1 (b1 is a constraint).
  therefore matrix A = [1 0] such that Ax <= b1
  similarly to check y1 >= b2 (b2 is a constraint) , A = [-1 0]  such that -Ax <= -b2 which implies Ax >= b2.
-![Presentation_gui_tool pptx](https://user-images.githubusercontent.com/96375883/213867983-ad64e988-15ca-46ae-918d-51dd2aefd837.svg)<br />
-![Screenshot 2023-01-21 175257](https://user-images.githubusercontent.com/96375883/213866744-8742c049-158a-44ee-8ce1-5405ef4fcfd3.png)
+![Presentation_gui_tool pptx (7)](https://user-images.githubusercontent.com/96375883/213904025-3edcda53-0dfb-42ec-ae52-9eaf0f3e472c.svg)<br />
  
  **Step 4:**
  The user specifies which IEEE bus architecture did he/she upload. This step links the trained RL agent with the S-Taliro tool. 
