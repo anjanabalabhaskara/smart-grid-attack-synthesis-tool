@@ -15,7 +15,9 @@ The tool is designed to find attack vectors for smart grid models that remain un
 ![DAC1](https://user-images.githubusercontent.com/103938112/213913664-2ba23b0c-3389-44be-8991-27905bc377c2.png)
 
 6. The frequency deviation of power grid along with the TTE for the two attack models are demonstrated below.</br> 
-   <img src="https://user-images.githubusercontent.com/103938112/213830897-f5c68617-a435-4099-87d0-959be5135a80.png" width="85%" height="80%"></br>
+
+   <img src="https://user-images.githubusercontent.com/103938112/213914338-4c0538cd-ac0d-424b-8bd4-a65ea6b625f0.png" width="85%" height="80%"></br>
+ 
    The above picture depicts the TTE for an IEEE 5 Bus power grid for both the attack models. The TTE for our case is 0.7 seconds while that for [9] is 2.5 seconds.  
 
    <img src="https://user-images.githubusercontent.com/103938112/213830986-ae446338-b61c-4b45-ba2b-f4447661a72c.png" width="85%" height="80%"></br>
