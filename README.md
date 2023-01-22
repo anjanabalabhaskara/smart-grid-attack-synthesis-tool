@@ -103,6 +103,6 @@ Finally the user starts the simulation by pressing the run simulation button.</b
 
 <img src="https://user-images.githubusercontent.com/103938112/213894191-8e587186-c6d1-4173-9be6-25ffbb3ee784.png" width="80%" height="75%"></br>
 
-A sample output plot is provided above.
+A sample output plot for IEEE 9 Bus case is provided above.
 
 
