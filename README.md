@@ -9,7 +9,7 @@ The tool is designed to find attack vectors for smart grid models that remain un
 
 1.	We compare the attack model developed in our work with that of [9] for IEEE (5, 9, 14 and 39) bus test cases.
 2.	We use the metric Time To Emergence (TTE) to evaluate our comparison.
-3.	TTE is the time from the onset of an attack sequence to the first time instant when the change in frequency (∆ω), in a power grid is out of the safety region (εL, εU). Where, εL = −0.5Hz and εU = 0.5Hz (refer [9]).
+3.	TTE is the time from the onset of an attack sequence to the first time instant when the change in frequency (∆ω), in a power grid is out of the safety region [-5 Hz, 5 Hz] (refer [9]).
 4.	An attack is considered to be more effective if it takes minimum TTE to push the grid frequency out of the safety range.
 5.	The TTE metrics for the two attack model are tabulated below.<br />
 ![ComparisonTable](https://user-images.githubusercontent.com/103938112/213844734-af3ce39d-4c57-4179-9d8e-3354a43c5823.png)
