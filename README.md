@@ -18,19 +18,15 @@ The frequency deviation of power grid along with the TTE for the two attack mode
 
    <img src="https://user-images.githubusercontent.com/103938112/213914338-4c0538cd-ac0d-424b-8bd4-a65ea6b625f0.png" width="85%" height="80%"></br>
  
-   The above picture depicts the TTE for an IEEE 5 Bus power grid for both the attack models. The TTE for our case is 0.7 seconds while that for [9] is 2.5 seconds.
    
    <img src="https://user-images.githubusercontent.com/103938112/213914394-1afbc0ee-8abc-498b-8548-75925a8f0186.png" width="85%" height="80%"></br>
-
-   The above picture depicts the TTE for an IEEE 9 Bus power grid for both the attack models. The TTE for our case is 0.1 seconds while that for [9] is 0.7 seconds. 
+ 
 
    <img src="https://user-images.githubusercontent.com/103938112/213914613-c9968fab-8c53-4155-9239-7549b866fa1f.png" width="85%" height="80%"></br>
    
-   The above picture depicts the TTE for an IEEE 14 Bus power grid for both the attack models. The TTE for our case is 0.1 seconds while that for [9] is 1.93 seconds.
    
    <img src="https://user-images.githubusercontent.com/103938112/213914675-8189891c-dd0a-4851-816c-f308ae4acbe9.png" width="85%" height="80%"></br>
 
-   The above picture depicts the TTE for an IEEE 39 Bus power grid for both the attack models. The TTE for our case is 34.08 seconds while that for [9] is 41.75 seconds. 
 
 **The above comparisons show that the attack vectors synthesized using our tool-chain**
 - is more effective in making a power grid unsafe compared to the state-of-the-art, 
