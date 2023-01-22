@@ -12,7 +12,7 @@ The tool is designed to find attack vectors for smart grid models that remain un
 3.	The attack model developed in [12] drives the frequency of an IEEE 9 Bus model away from the safety region ([-0.5 Hz, 0.5 Hz) in 1.18 seconds while our attack model does the same in 0.1 seconds. The authors here consider NERC-CIP protocols for attack detection which are not effective enough against transient attacks. While for our detection unit, the detection threshold is selected from the nominal system behavior that avoids false alarms.
 4.	We compare the attack model developed in our work with that of [9] for IEEE (5, 9, 14, and 39) bus test cases. We use the metric Time To Emergence (TTE) to evaluate our comparison. TTE is the time from the onset of an attack sequence (0 seconds here for both the attack models) to the first time instant when the change in frequency, in a power grid is out of the safety region [-0.5 Hz, 0.5 Hz] (refer [9]). An attack is considered to be more effective if it takes minimum TTE to push the grid frequency out of the safety range. The TTE metrics for the two attack models are tabulated below.<br />
 
-![DAC1](https://user-images.githubusercontent.com/103938112/213913664-2ba23b0c-3389-44be-8991-27905bc377c2.png)
+![DAC1](https://user-images.githubusercontent.com/103938112/213914550-1db95379-f3c2-4efb-a019-fb181a5970c5.png)
 
 6. The frequency deviation of power grid along with the TTE for the two attack models are demonstrated below.</br> 
 
