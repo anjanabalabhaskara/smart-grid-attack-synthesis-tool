@@ -24,8 +24,8 @@ The frequency deviation of power grid along with the TTE for the two attack mode
 
    The above picture depicts the TTE for an IEEE 9 Bus power grid for both the attack models. The TTE for our case is 0.1 seconds while that for [9] is 0.7 seconds. 
 
-
-   <img src="https://user-images.githubusercontent.com/103938112/213831003-325b61a6-446e-4b1e-8deb-6bfb584e05ef.png" width="85%" height="80%"></br>
+   <img src="https://user-images.githubusercontent.com/103938112/213914613-c9968fab-8c53-4155-9239-7549b866fa1f.png" width="85%" height="80%"></br>
+   
    The above picture depicts the TTE for an IEEE 14 Bus power grid for both the attack models. The TTE for our case is 0.1 seconds while that for [9] is 1.93 seconds. 
 
    <img src="https://user-images.githubusercontent.com/103938112/213831027-b81399e8-04cc-44c5-a104-89b4ddf707b9.png" width="85%" height="80%"></br>
