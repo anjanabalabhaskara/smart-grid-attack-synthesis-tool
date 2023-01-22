@@ -35,9 +35,9 @@ The tool is designed to find attack vectors for smart grid models that remain un
 
 ## Prerequisites (for running the tool):
 
-* Platform: 32/64 bit Windows Operating System
-* External Tools: Matlab R2021a
-* Other Requirements: S-taliro tool-box https://sites.google.com/a/asu.edu/s-taliro/s-taliro , Matlab Reinforcement Learning Toolbox
+* Platform: 32/64 bit Windows Operating System.
+* External Tools: Matlab R2021a.
+* Other Requirements: S-taliro tool-box https://sites.google.com/a/asu.edu/s-taliro/s-taliro , Matlab Reinforcement Learning Toolbox.
 * For uploading the designed power grid model for an attack to the Graphical User Interface (GUI) tool the user is required to insert an RL agent block in his/her Simulink model. The user then labels the attack points for FDIA and LAA in the model through ports available in Simulink. (The Rl agent induces LAA by manipulating the circuit breaker switching signal and S-Taliro induces FDIA by tampering the reference set point of the generator unit). The user also needs to collect the output parameter he/she is interested to view the waveforms into a vector and connect it to the suitable port.
 
 ## Installation guide:
