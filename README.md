@@ -71,8 +71,7 @@ The user specifies the time duration in seconds for which the simulation is to b
 
 **Step 7:**
 The user choses a solver for the simulink model using this tab.<br />
-![Presentation_gui_tool pptx (1)](https://user-images.githubusercontent.com/96375883/213868879-961e436c-b6e3-49ca-9a2c-1b3b7178d105.svg)<br />
-![Screenshot_20230121_133650](https://user-images.githubusercontent.com/96375883/213867273-31b91070-2ef0-430b-9d1f-862e09ea75f6.png)<br />
+![Presentation_gui_tool pptx (11)](https://user-images.githubusercontent.com/96375883/213904019-bc738d9c-016e-468f-8a5b-272d836c1235.svg)<br />
 
 **Step 8:**
 Time time step at which the model will be executed is specified in the Sample Time tab.<br />
