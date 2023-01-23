@@ -21,11 +21,14 @@ The tool is designed to find attack vectors for smart grid models that remain un
 
    <img src="https://user-images.githubusercontent.com/103938112/214034470-8e6a029e-24dd-4402-b2dd-46720f216fc7.png" width="85%" height="80%"></br>
 
-   <img src="https://user-images.githubusercontent.com/103938112/214034728-07605735-2ed6-4e68-9477-ef471e381493.png" width="85%" height="80%"></br>
  
-   <img src="https://user-images.githubusercontent.com/103938112/214034904-2a8461d6-3ad8-4533-b153-1d3e97eb0b4c.png" width="85%" height="80%"></br>
+   <img src="https://user-images.githubusercontent.com/103938112/213915136-e3f769e2-b910-4fbe-97a3-0c40dcd25170.png" width="85%" height="80%"></br>
+ 
+
+   <img src="https://user-images.githubusercontent.com/103938112/213914613-c9968fab-8c53-4155-9239-7549b866fa1f.png" width="85%" height="80%"></br>
    
-   <img src="https://user-images.githubusercontent.com/103938112/214035125-08e60a2b-0a73-48bd-8a77-f4a5e7070e1d.png" width="85%" height="80%"></br>
+   
+   <img src="https://user-images.githubusercontent.com/103938112/213914675-8189891c-dd0a-4851-816c-f308ae4acbe9.png" width="85%" height="80%"></br>
 
 
 **The above comparisons show that the attack vectors synthesized using our tool-chain**
@@ -58,7 +61,7 @@ The user uploads his/her power grid simulink model (in .mdl format) (eg. IEEE5bu
 Next in the specification tab, the user enters the safety properties for the power grid (i.e, the upper and lower bound limit for power grid frequency) and set the point value for the detection unit in the grid in the form of the MTL equation. <br />
 ![Presentation_gui_tool pptx (6)](https://user-images.githubusercontent.com/96375883/213904027-d48d7b17-e395-48fd-aed1-5d12633d8ffa.svg)<br />
 
-In the above figure r1 represents upper safety limit for grid frequency and r2 represents lower safety limit for grid frequency. r3 represents the threshold value for the residue based detection unit.
+In the above figure, r1 represents the upper safety limit for grid frequency and r2 represents the lower safety limit for grid frequency. r3 represents the threshold value for the residue-based detection unit.
 
 ### **Step 3:**
 In the predicate settings tab, the user maps the logic specification in step 2 to the predicates over the output space of the model.
@@ -99,12 +102,12 @@ The initial value for false data generation is specified by the user in this tab
 ![Presentation_gui_tool pptx (13)](https://user-images.githubusercontent.com/96375883/213904016-62b644ef-7068-4bc4-9814-f733293c2e4e.svg)<br />
 
 ### **Step 10:**
-Here in InputMin and InputMax the user specifies the input range for false-data injection, in Control Points tab the samples points for false-data injection is selected by the user, in interpolation type the user specifies how to insert false-data in the simulation time.<br />
+Here in InputMin and InputMax the user specifies the input range for false-data injection, in the Control Points tab the samples points for false-data injection, are selected by the user, in interpolation type the user specifies how to insert false-data in the simulation time.<br />
 
 ![Presentation_gui_tool pptx (14)](https://user-images.githubusercontent.com/96375883/213904015-2c6ee61f-fca1-40a1-a183-14581db112c1.svg)<br />
 
 ### **Step 11:**
-Finally the user starts the simulation by pressing the run simulation button.</br>
+Finally the user starts the simulation by clicking the run simulation button.</br>
 
 ![Presentation_gui_tool pptx (15)](https://user-images.githubusercontent.com/96375883/213904013-0e62f5a7-362f-452c-891e-b12382fe7110.svg)<br />
 
