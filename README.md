@@ -25,12 +25,18 @@ The tool is designed to find attack vectors for smart grid models that remain un
 
  
    <img src="https://user-images.githubusercontent.com/103938112/213915136-e3f769e2-b910-4fbe-97a3-0c40dcd25170.png" width="85%" height="80%"></br>
+   
+   In Fig2 we plot the change in frequency of an IEEE 9 bus power grid model. The green (with square markers), blue (with big circle markers), red (with small circle markers), and orange (with down triangle markers) denote the change in grid frequency under the influence of our attack model, change in grid frequency under the influence of attack model developed in [9], upper safety limit of change in frequency and lower safety limit of change in frequency respectively. As can be seen in this figure the TTE1 is 0.7 seconds and TTE2 is 0.1 seconds. This indicates that our attack model is capable of pushing the grid frequency beyond its safety limit faster as compared to [9].</br>
  
 
    <img src="https://user-images.githubusercontent.com/103938112/213914613-c9968fab-8c53-4155-9239-7549b866fa1f.png" width="85%" height="80%"></br>
    
+  In Fig2 we plot the change in frequency of an IEEE 14 bus power grid model. The green (with square markers), blue (with big circle markers), red (with small circle markers), and orange (with down triangle markers) denote the change in grid frequency under the influence of our attack model, change in grid frequency under the influence of attack model developed in [9], upper safety limit of change in frequency and lower safety limit of change in frequency respectively. As can be seen in this figure the TTE1 is 1.93 seconds and TTE2 is 0.1 seconds. This indicates that our attack model is capable of pushing the grid frequency beyond its safety limit faster as compared to [9].</br>
+   
    
    <img src="https://user-images.githubusercontent.com/103938112/213914675-8189891c-dd0a-4851-816c-f308ae4acbe9.png" width="85%" height="80%"></br>
+
+In Fig2 we plot the change in frequency of an IEEE 39 bus power grid model. The green (with square markers), blue (with big circle markers), red (with small circle markers), and orange (with down triangle markers) denote the change in grid frequency under the influence of our attack model, change in grid frequency under the influence of attack model developed in [9], upper safety limit of change in frequency and lower safety limit of change in frequency respectively. As can be seen in this figure the TTE1 is 41.75 seconds and TTE2 is 34.08 seconds. This indicates that our attack model is capable of pushing the grid frequency beyond its safety limit faster as compared to [9].</br>
 
 
 **The above comparisons show that the attack vectors synthesized using our tool-chain**
