@@ -21,8 +21,7 @@ The tool is designed to find attack vectors for smart grid models that remain un
 
    <img src="https://user-images.githubusercontent.com/103938112/214034470-8e6a029e-24dd-4402-b2dd-46720f216fc7.png" width="85%" height="80%"></br>
 
- 
-   <img src="https://user-images.githubusercontent.com/103938112/213915136-e3f769e2-b910-4fbe-97a3-0c40dcd25170.png" width="85%" height="80%"></br>
+   <img src="https://user-images.githubusercontent.com/103938112/214034728-07605735-2ed6-4e68-9477-ef471e381493.png" width="85%" height="80%"></br>
  
 
    <img src="https://user-images.githubusercontent.com/103938112/213914613-c9968fab-8c53-4155-9239-7549b866fa1f.png" width="85%" height="80%"></br>
