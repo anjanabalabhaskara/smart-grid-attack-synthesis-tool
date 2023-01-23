@@ -7,7 +7,7 @@ The tool is designed to find attack vectors for smart grid models that remain un
 
 ## Comaprison of our tool with State of the Art
 
-1.	The attack model in [7] tampers with one circuit breaker control signal to make the power grid frequency unsafe. However, there remains no guarantee and evidence in their work that the grid frequency will not return to its safety range in the attack interval. Our model on the other hand combines Load Alteration Attack (LAA) induced by an RL agent with False Data Injection Attack (FDIA) produced by the simulation-based verification tool S-taliro that formally guarantees that the grid frequency deviates quickly and remains out of safety range while maintaining stealth.
+1.	The attack model in [7] tampers with one circuit breaker control signal to make the power grid frequency unsafe. However, there remains no guarantee and evidence in their work that the grid frequency will not return to its safety range during the attack. Our model on the other hand combines Load Alteration Attack (LAA) induced by an RL agent with False Data Injection Attack (FDIA) produced by the simulation-based verification tool S-taliro that formally guarantees that the grid frequency deviates quickly and remains out of safety range while maintaining stealth.
 
 2.	The work in [4] ignores the presence of anomaly detection units in a grid to monitor the voltage and current surges. Therefore, there exists no clear visualization of whether the attack remains stealthy or gets discovered by the detection units. Whereas, the attack induced by our model remains undiscovered by the lightweight robust anomaly detection unit developed in our work.
 
