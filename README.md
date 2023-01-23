@@ -114,7 +114,7 @@ Finally the user starts the simulation by pressing the run simulation button.</b
 
 ## Result plot
 
-![frequency_comparison_9_bus](https://user-images.githubusercontent.com/96375883/213973318-81972edb-e57e-4dac-95bf-baec5bee77f8.svg)
+![frequency_comparison_9_bus](https://user-images.githubusercontent.com/96375883/213973704-ecfa6f10-b98d-47bd-8b10-2a8b001d41fa.svg)
 
 A sample output plot for IEEE 9 Bus case is provided above.
 
