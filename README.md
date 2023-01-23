@@ -5,7 +5,7 @@ The tool is designed to find attack vectors for smart grid models that remain un
 <img src="https://user-images.githubusercontent.com/103938112/213892560-a93829cb-b429-47e9-86c2-8daefbc27ccc.png" width="90%" height="90%"></br>
 
 
-## Comaprison of our tool with State of the Art
+## Comparison of our tool with State of the Art
 
 1.	The attack model in [7] tampers with the circuit breaker control signal to change the power grid topology. The effect of the proposed attack on the grid frequency which is a safety-critical parameter is not discussed in that work. Therefore, the time required by such an attack to make a grid unsafe remains undiscovered. Our work, on the other hand, tampers the circuit breaker control signals to induce Load Alteration Attack (LAA) which is simultaneously accompanied by False Data Injection Attack (FDIA) on the sensor measurements. This combination of the attack vector injected through the combination of two attack surfaces pushes the grid frequency out of safety range ([-0.5 Hz, 0.5 Hz]) at 0.1 seconds from the onset of the attack while remaining undiscovered by the detection units for 0.2 Seconds.
 
