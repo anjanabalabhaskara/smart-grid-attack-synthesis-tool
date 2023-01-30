@@ -48,6 +48,8 @@ In Fig4 we plot the change in frequency of an IEEE 39 bus power grid model. The 
 * Other Requirements: S-taliro tool-box https://sites.google.com/a/asu.edu/s-taliro/s-taliro , Matlab Reinforcement Learning Toolbox.
 * For uploading the designed power grid model for an attack to the Graphical User Interface (GUI) tool the user is required to insert an RL agent block in his/her Simulink model.
 * Choose the attack points in the model. To obtain individual attack vectord, connect a inport to demux, first index is LAA attack vector followed by FDIA attack vectors.
+* Connect all the observations for RL-agent to a mux and then to outport 1
+* Connect the variables need to be plotted/observed to mux(name the mux as outputs) and connect to outport 2. Name the signals connected to mux using signal properties.
 ## Installation guide:
 
 * Setup S-taliro toolbox by pasting "setup_staliro.m" command in the Matlab command window.
