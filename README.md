@@ -5,41 +5,7 @@ The tool is designed to find attack vectors for smart grid models that remain un
 <img src="https://user-images.githubusercontent.com/103938112/213892560-a93829cb-b429-47e9-86c2-8daefbc27ccc.png" width="90%" height="90%"></br>
 
 
-## Comparison of our tool with State of the Art
 
-1.	The attack model in [7] tampers with the circuit breaker control signal to change the power grid topology. The effect of the proposed attack on the grid frequency which is a safety-critical parameter is not discussed in that work. Therefore, the time required by such an attack to make a grid unsafe remains undiscovered. Our work, on the other hand, tampers the circuit breaker control signals to induce Load Alteration Attack (LAA) which is simultaneously accompanied by False Data Injection Attack (FDIA) on the sensor measurements. This combination of the attack vector injected through the combination of two attack surfaces pushes the grid frequency out of safety range ([-0.5 Hz, 0.5 Hz]) at 0.1 seconds from the onset of the attack while remaining undiscovered by the detection units for 0.2 Seconds.
-
-2.	The work in [4] ignores the presence of anomaly detection units in a grid to monitor the voltage and current surges. Therefore, there exists no clear visualization of whether the attack remains stealthy or gets discovered by the detection units. Whereas, the attack induced by our model remains undiscovered by the lightweight robust anomaly detection unit developed in our work.
-
-3. The attack model developed in [12] drives the frequency of an IEEE 9 Bus model away from the safety region ([-0.5 Hz, 0.5 Hz]) in 1.18 seconds while our attack model does the same in 0.1 seconds. The authors here consider NERC-CIP protocols for attack detection which are not effective enough against transient attacks. Because, when the transient dynamics of the power grid exceed the safety zone, the grid’s steady-state converged values reside within NERC CIP requirement limits, therefore the attack does not get discovered. While for our detection unit, the detection threshold is selected from the nominal system behavior which detects transient attacks. Our attack model however remains undetected for 0.2 seconds by our detection units which signify its effectiveness in terms of stealth.
-
-4.	We compare the attack model developed in our work with that of [9] for IEEE (5, 9, 14, and 39) bus test cases. We use the metric Time To Emergence (TTE) to evaluate our comparison. TTE is the time from the onset of an attack sequence (0 seconds here for both the attack models) to the first time instant when the change in frequency, in a power grid is out of the safety region [-0.5 Hz, 0.5 Hz] (refer [9]). An attack is considered to be more effective if it takes minimum TTE to push the grid frequency out of the safety range. The TTE metrics for the two attack models are tabulated below.
-
-![DAC1](https://user-images.githubusercontent.com/103938112/213914550-1db95379-f3c2-4efb-a019-fb181a5970c5.png)
-
-**The frequency deviation of power grid along with the TTE for the two attack models are demonstrated below**</br> 
-
-   <img src="https://user-images.githubusercontent.com/103938112/214034470-8e6a029e-24dd-4402-b2dd-46720f216fc7.png" width="85%" height="80%"></br>
-   
-   In Fig1 we plot the change in frequency of an IEEE 5 bus power grid model. The green (with square markers), blue (with big circle markers), red (with small circle markers), and orange (with down triangle markers) denote the change in grid frequency under the influence of our attack model, change in grid frequency under the influence of attack model developed in [9], upper safety limit of change in frequency and lower safety limit of change in frequency respectively. As can be seen in this figure the TTE1 is 2.5 seconds and TTE2 is 0.7 seconds. This indicates that our attack model is capable of pushing the grid frequency beyond its safety limit faster as compared to [9].</br>
-
-   <img src="https://user-images.githubusercontent.com/103938112/214040624-f1745863-2e37-4436-9e26-346a1bfb6fd9.png" width="85%" height="80%"></br>
-   
-   In Fig2 we plot the change in frequency of an IEEE 9 bus power grid model. The green (with square markers), blue (with big circle markers), red (with small circle markers), and orange (with down triangle markers) denote the change in grid frequency under the influence of our attack model, change in grid frequency under the influence of attack model developed in [9], upper safety limit of change in frequency and lower safety limit of change in frequency respectively. As can be seen in this figure the TTE1 is 0.7 seconds and TTE2 is 0.1 seconds. This indicates that our attack model is capable of pushing the grid frequency beyond its safety limit faster as compared to [9].</br>
- 
-   <img src="https://user-images.githubusercontent.com/103938112/214040890-f6bbc927-de7b-4b15-b632-41a0fcae6566.png" width="85%" height="80%"></br>
-   
-  In Fig3 we plot the change in frequency of an IEEE 14 bus power grid model. The green (with square markers), blue (with big circle markers), red (with small circle markers), and orange (with down triangle markers) denote the change in grid frequency under the influence of our attack model, change in grid frequency under the influence of attack model developed in [9], upper safety limit of change in frequency and lower safety limit of change in frequency respectively. As can be seen in this figure the TTE1 is 1.93 seconds and TTE2 is 0.1 seconds. This indicates that our attack model is capable of pushing the grid frequency beyond its safety limit faster as compared to [9].</br>
-   
-   <img src="https://user-images.githubusercontent.com/103938112/214041174-2279ae3e-c4f7-4926-9861-e86f9721ddec.png" width="85%" height="80%"></br>
-
-In Fig4 we plot the change in frequency of an IEEE 39 bus power grid model. The green (with square markers), blue (with big circle markers), red (with small circle markers), and orange (with down triangle markers) denote the change in grid frequency under the influence of our attack model, change in grid frequency under the influence of attack model developed in [9], upper safety limit of change in frequency and lower safety limit of change in frequency respectively. As can be seen in this figure the TTE1 is 41.75 seconds and TTE2 is 34.08 seconds. This indicates that our attack model is capable of pushing the grid frequency beyond its safety limit faster as compared to [9].</br>
-
-
-**The above comparisons show that the attack vectors synthesized using our tool-chain**
-- is more effective in making a power grid unsafe compared to the state-of-the-art, 
-- explores a combinations of possible vulnerable points in a power grid model, 
-- formally ensures the minimum robustness of the system towards the desired safety property (also, scalable).
 
 ## Prerequisites (for running the tool):
 
