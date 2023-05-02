@@ -42,7 +42,7 @@ For example, suppose there are two outputs x = [y1,y2]. Here y1 is the frequency
  Predicate r1 checks if y1 < = b1 (b1 is a constraint),therefore matrix A = [1 0] such that Ax <= b1
  similarly to check y1 >= b2 (b2 is a constraint) , A = [-1 0]  such that -Ax <= -b2 which implies Ax >= b2.
  
-![Presentation_gui_tool pptx (7)](https://user-images.githubusercontent.com/96375883/213904025-3edcda53-0dfb-42ec-ae52-9eaf0f3e472c.svg)<br />
+![presentation_gui_3.pptx](https://github.com/arnab-m/imprint-mgp/files/11369605/presentation_gui_3.pptx)<br />
  
  ### **Step 4:**
  The user specifies which IEEE bus architecture did he/she upload by clicking the appropriate button. 
